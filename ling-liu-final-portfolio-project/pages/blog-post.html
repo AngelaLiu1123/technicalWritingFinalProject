@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/435a1e77f3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/font-style.css">
+  <title>Home Page</title>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo"><h4><a href="../index.html"><strong class="strong-font">Angela's</strong> Portfolio</a></h4></div>
+      <nav class="menu">
+        <ul>
+          <li><a href="../pages/project.html">Projects</a></li>
+          <li><a href="../pages/about-me.html">About Me</a></li>
+          <li><a href="../pages/contact.html">Contact</a></li>
+          <li><a href="../pages/blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="blogs" id="blogs">
+      <h1>Learn about your online security</h1>
+      <p>When we visit a website online with our computer or cell phone, you may find a small lock icon on the far-left side of the URL bar. You may wonder what this small lock icon is used for. Read the following article, you can answer some of your questions.</p>
+      <p>In today's era of rapid development of technology network, we will use our personal privacy information on the network with high frequency, and these critical data will bring some security problems, such as information leakage or hacking. SSL (Secure Socket Layer) is the only way to protect your personal information from being stolen by others.</p>
+      <h4>What does SSL mean?</h4>
+      <p>SSL (Secure Sockets Layer), and its successor Transport Layer Security (TLS), is a security protocol that provides security and data integrity for network communications. Today it is widely used for web pages, email, Internet fax, instant messaging and voice over IP telephony (VoIP). TLS (Transport Layer Security) is a more secure and upgraded version of SSL, and since the term SSL is more commonly used, we still refer to our security certificates as SSL.</p>
+      <img src="../images/blog1-ssl1.png" alt="The photo of SSL1">
+      <p>Furthermore, each time you visit a website, data is exchanged between your browser (which we call the client) and the website you want to visit (which we call the server), and this process is controlled by a data transfer protocol we call HTTP (Hyper Text Transfer Protocol). The security extension of HTTP is HTTPS (Hyper Text Transfer Protocol Secure), when the data is transferred between the client and the server it is encrypted in a way to prevent third parties from accessing the information to ensure security.</p>
+      <img src="../images/blog1-ssl2.png" alt="The photo of SSL2">
+      <p>So how do we know if the website we are visiting has an SSL security certificate? When you look at the website you are visiting, you will see that the URL (Uniform Resource Locator) in the address bar starts with HTTPS or HTTP. If it starts with HTTPs and not HTTP, this means that the site is being protected with an SSL certificate ('s' means secure). Therefore, we recommend that you never provide any type of personal or banking information to a website that does not have SSL encryption.</p>
+      <p>Since SSL certificates are so relevant to keeping our personal information secure, the authority that issues the certificate to the website is particularly important. Typically, a Certificate Authority is a trusted third party entity that issues digital certificates and manages public key certificates to encrypt end-user data, and the CA's role in this process is to ensure that users receive a unique certificate for valid authentication. Some common certificate authorities such as Comodo with 42.6% market share, Symantec with 15.3% market share, and GoDaddy with 7.7% market share. </p>
+      <img src="../images/blog1-ssl3.jpg" alt="The photo of public key">
+      <p>In summary, SSL certificates and HTTPs transport protocols play a vital role in enabling us to access websites securely and not have information stolen by others, and more and more people are now paying attention to the security of website access.</p>
+      <h4><em>References</em></h4>
+      <p><em>What is Certificate Authority (CA)? how to get SSL from ca? About SSL. (2021, June 10). Retrieved September 18, 2021, from https://aboutssl.org/certificate-authority/.</em></p>
+      <p><em>“What Is SSL Certificate and Types of SSL Certificate.” Gloify, 9 June 2020, Retrieved September 18, 2021, from https://gloify.com/blog/what-is-ssl-and-types-of-ssl-certificate/.</em></p>
+    </section>
+  </main>
+
+  <footer class="foot-menu blog-footer-menu">
+    <h4>&copy; 2021 Angela's Blog</h4>
+    <nav>
+      <ul>
+        <li><a href="https://twitter.com/LiuLing78737214"><i class="fab fa-twitter icon"></i></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100073108574523"><i class="fab fa-facebook-f icon"></i></a></li>
+        <li><a href="https://www.instagram.com/lingliu1123/"><i class="fab fa-instagram icon"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/liu-ling-796111224/"><i class="fab fa-linkedin-in icon"></i></a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
